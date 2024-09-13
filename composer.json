@@ -1,0 +1,17 @@
+{
+    "name": "mvc/project",
+    "description": "mvc project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mvc\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Ibrahim",
+            "email": "mohamedibrahimabdulghani@gmail.com"
+        }
+    ],
+    "require": {}
+}

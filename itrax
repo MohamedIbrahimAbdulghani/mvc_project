@@ -1,0 +1,10 @@
+<?php
+
+
+require "vendor/autoload.php";
+
+use Mvc\Project\core\commands;
+
+$command = new commands($argv);
+
+$command->run();
