@@ -10,3 +10,4 @@ class route {
         self::$routes[$url] = $action;
     }
 }
+

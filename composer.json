@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "Mvc\\Project\\": "src/"
-        }
+        },
+        "files": [
+            "src/routes/web.php"
+        ]
     },
     "authors": [
         {
@@ -13,5 +16,8 @@
             "email": "mohamedibrahimabdulghani@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "filp/whoops": "^2.15",
+        "vlucas/phpdotenv": "^5.6"
+    }
 }

@@ -26,6 +26,8 @@ class app {
             } else {
                 echo "Failed";
             }
+
+            
             // $url = explode("/", $url);
             // $this->controller = $url[0];
             // $this->method = $url[1];
@@ -37,7 +39,7 @@ class app {
     }
 
     private function run() {
-        $controller = "Mvc\\Backend2024\\controllers\\" . $this->controller;
+        $controller = "Mvc\\Project\\controllers\\" . $this->controller;
         if(class_exists($controller)):
             call_user_func_array([new $controller, $this->method], $this->params);  // to make run object from class
         else:
@@ -46,3 +48,5 @@ class app {
 
     }
 }
+
+

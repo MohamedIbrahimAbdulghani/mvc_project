@@ -1,6 +1,6 @@
 <?php
 
-namespace Mvc\Backend2024\controllers;
+namespace Mvc\Project\controllers;
 
 class {name} extends controller {
 
