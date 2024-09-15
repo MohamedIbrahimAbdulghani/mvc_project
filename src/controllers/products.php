@@ -2,6 +2,6 @@
 
 namespace Mvc\Project\controllers;
 
-class users extends controller {
+class products extends controller {
 
 }

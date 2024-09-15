@@ -26,7 +26,6 @@ class app {
             } else {
                 echo "Failed";
             }
-
             
             // $url = explode("/", $url);
             // $this->controller = $url[0];
